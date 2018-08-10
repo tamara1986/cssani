@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 1px;
+	visibility: hidden;
+}
+.wrapper{
+	background-color: white;
+}

@@ -1,0 +1,707 @@
+@media only screen and (min-width: 1200px){
+	.wrapper{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	p,h2,h3,h4{
+		text-align: center;
+	}
+	header{
+		height: 100px;
+	    background-color: #073277;
+	}
+	header a.logo{
+		display: block;
+		width: 40%;
+		height: 100%;
+		background-image: url(../aseti/images/logo.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		float: left;
+		margin-right: 20%;
+	}
+	header nav{
+		width: 40%;
+		float: right;
+		margin-top: 20px;
+	}
+	header nav a{
+		display: block;
+		width: 22%;
+		border:2px solid white;
+		text-decoration: none;
+		color: white;
+		border-radius: 20px;
+		line-height: 3;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 7px;
+		margin-top: 9px;
+		margin-right: 2%;
+		float: left;
+		font-weight: bolder;
+		font-size: 12px;
+
+	}
+	header nav a:hover{
+		background-color: white;
+		color: #073277;
+	}
+	.pozadina{
+		width: 100%;
+		background-image: url(../aseti/images/hero.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 700px;
+		text-align: center;
+		color: white;
+	}
+	.pozadina p{
+		margin: 0 11%;
+		margin-bottom: 20px;
+		color: white;
+		text-align: center;
+	}
+	.pozadina h1{
+		margin: 0;
+		padding: 100px 40px 40px 40px; 
+	}
+	a.dugme{
+		display: block;
+		text-decoration: none;
+		border: 2px solid white;
+		border-radius: 20px;
+		width: 120px;
+		line-height: 3;
+		color: white;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+	a.dugme:hover{
+		background-color: white;
+		color: #073277;
+		font-weight: bolder;
+	}
+	.content{
+		width: 100%;
+	}
+	.content main{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.content main .prvi{
+		margin-top: 70px;
+		margin-bottom: 20px;
+	}
+	.content main .prvi p{
+		text-align: center;
+	}
+	.content main article{
+		width: 30.3%;
+		margin-right: 3%;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.content main article img{
+		display: block;
+		width: 100%;
+	}
+	.tranzicija p{
+		color: white;
+		text-align: center;
+	}
+	.tranzicija{
+		transition: all 200ms linear;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		height: 0;
+		width: 90%;
+		color: white;
+		background-color: rgba(0, 0 , 0, .5);
+		font-size: 14px;
+		text-align: center;
+		padding: 5%;
+	}
+	article:hover .tranzicija{
+		height: 100%;
+		top:0;
+	}
+	.content .new_idea{
+		background-color: #073277;
+		padding: 1% 10%;
+		margin-top: 60px;
+	}
+	.new_idea p,
+	.new_idea h3{
+		color: white;
+		text-align: left;
+	}
+	.new_idea div.animacija{
+		width: 100px;
+		height: 100%;
+		float: left;
+		background-color:#073277;
+		margin-right: 4%;
+		margin-top: 15px;
+	}
+	.animacija img{
+		display:block;
+		width: 100%;
+		animation: blink 0.5s infinite;
+	}
+	@keyframes blink{
+		50%{
+			opacity: 0;
+		}
+	}
+	.about_cssani{
+		width: 80%;
+		background-image: url(../aseti/images/about.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 10%;
+	}
+	.about_cssani h2,p{
+		text-align: left;
+		color: black;
+	}
+	a.neko_dugme{
+		display: block;
+		text-decoration: none;
+		border: 2px solid #073277;
+		border-radius: 20px;
+		width: 120px;
+		line-height: 3;
+		color: #073277;
+		text-align: center;
+		margin: 0;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+	a.neko_dugme:hover{
+		background-color: #073277;
+		color: white;
+		font-weight: bolder;
+	}
+	.video{
+		width: 100%;
+		position: relative;
+	}
+	video{
+		display: block;
+		width: 100%;
+	}
+	footer{
+		position: relative;
+		background-color: #073277;
+		height: 60px;
+		text-align: center;
+		color: white;
+		line-height: 6;
+		font-size: 11px;
+	}
+	footer a{
+		display: block;
+		position: absolute;
+		text-decoration: none;
+		right: 7%;
+		bottom: -15px;
+		color: white;
+	}
+	.skriven{
+		visibility: hidden;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		top: 19%;
+		left: 1%;
+		padding-top:0px;
+	}
+	.video:hover .skriven{
+		visibility: visible;
+	}
+	.skriven img{
+		display: block;
+		width: 150px;
+		height: 50px;
+		margin: 0 auto;
+	}
+	.skriven p,h3{
+		text-align: center;
+		padding: 0 10%;
+		color: white;
+	}
+	.skriven p{
+		font-size: 16px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+	.wrapper{
+		width: 100%;
+		margin: 0 auto;
+	}
+	p,h2,h3,h4{
+		text-align: center;
+	}
+	header{
+		height: 100px;
+	    background-color: #073277;
+	}
+	header a.logo{
+		display: block;
+		width: 40%;
+		height: 100%;
+		background-image: url(../aseti/images/logo.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		float: left;
+		margin-right: 20%;
+	}
+	header nav{
+		width: 40%;
+		float: right;
+		margin-top: 20px;
+	}
+	header nav a{
+		display: block;
+		width: 22%;
+		border:2px solid white;
+		text-decoration: none;
+		color: white;
+		border-radius: 20px;
+		line-height: 3;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 7px;
+		margin-top: 9px;
+		margin-right: 2%;
+		float: left;
+		font-weight: bolder;
+		font-size: 12px;
+
+	}
+	header nav a:hover{
+		background-color: white;
+		color: #073277;
+	}
+	.pozadina{
+		width: 100%;
+		background-image: url(../aseti/images/hero.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 700px;
+		color: white;
+	}
+	.pozadina p{
+		margin: 0 11%;
+		margin-bottom: 20px;
+		color: white;
+		text-align: center;
+	}
+	.pozadina h1{
+		margin: 0;
+		padding: 100px 40px 40px 40px; 
+		text-align: center;
+	}
+	a.dugme{
+		display: block;
+		text-decoration: none;
+		border: 2px solid white;
+		border-radius: 20px;
+		width: 120px;
+		line-height: 3;
+		color: white;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+	a.dugme:hover{
+		background-color: white;
+		color: #073277;
+		font-weight: bolder;
+	}
+	.content{
+		width: 100%;
+	}
+	.content main{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.content main .prvi p{
+		text-align: center;
+	}
+	.content article{
+		width: 100%;
+		background-color: #eae6e6;
+		margin-bottom: 30px;
+	}
+	.content article > div{
+		width: 38%;
+		float: right;
+		height: 100%;
+		padding: 6%;
+		
+	}
+	.content article p,
+	.content article h2{
+		text-align: center;
+		color: #073277;
+	}
+	.content main article img{
+		display: block;
+		width: 50%;
+		float: left;
+	}
+	.content .new_idea{
+		background-color: #073277;
+		padding: 1% 10%;
+		margin-top: 60px;
+	}
+	.new_idea p,
+	.new_idea h3{
+		color: white;
+		text-align: left;
+	}
+	.new_idea div.animacija{
+		width: 100px;
+		height: 100%;
+		float: left;
+		background-color:#073277;
+		margin-right: 4%;
+		margin-top: 15px;
+	}
+	.animacija img{
+		display:block;
+		width: 100%;
+		animation: blink 0.5s infinite;
+	}
+	@keyframes blink{
+		50%{
+			opacity: 0;
+		}
+	}
+	.about_cssani{
+		width: 80%;
+		background-image: url(../aseti/images/about.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 10%;
+	}
+	.about_cssani h2,p{
+		text-align: left;
+		color: black;
+	}
+	a.neko_dugme{
+		display: block;
+		text-decoration: none;
+		border: 2px solid #073277;
+		border-radius: 20px;
+		width: 120px;
+		line-height: 3;
+		color: #073277;
+		text-align: center;
+		margin: 0;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+	a.neko_dugme:hover{
+		background-color: #073277;
+		color: white;
+		font-weight: bolder;
+	}
+	.video{
+		width: 100%;
+		position: relative;
+	}
+	video{
+		display: block;
+		width: 100%;
+	}
+	footer{
+		position: relative;
+		background-color: #073277;
+		height: 60px;
+		text-align: center;
+		color: white;
+		line-height: 6;
+		font-size: 11px;
+	}
+	footer a{
+		display: block;
+		position: absolute;
+		text-decoration: none;
+		right: 7%;
+		bottom: -15px;
+		color: white;
+	}
+	.skriven{
+		visibility: hidden;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		top: 19%;
+		left: 1%;
+		padding-top:0px;
+	}
+	.video:hover .skriven{
+		visibility: visible;
+	}
+	.skriven img{
+		display: block;
+		width: 150px;
+		height: 50px;
+		margin: 0 auto;
+	}
+	.skriven p,h3{
+		text-align: center;
+		padding: 0 10%;
+		color: white;
+	}
+	.skriven p{
+		font-size: 16px;
+	}
+}	
+@media only screen and (max-width: 768px){
+	.wrapper{
+		width: 100%;
+		margin: 0 auto;
+	}
+	header{
+		height: 230px;
+	    background-color: #073277;
+	}
+	header a.logo{
+		display: block;
+		width: 100%;
+		height: 35%;
+		background-image: url(../aseti/images/logo.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	header nav{
+		width: 84%;
+		margin: 10px 8%;
+	}
+	header nav a{
+		display: block;
+		width: 100%;
+		border:2px solid white;
+		text-decoration: none;
+		color: white;
+		border-radius: 20px;
+		line-height: 2;
+		text-align: center;
+		margin-bottom: 7px;
+		margin-top: 5px;
+		font-weight: bolder;
+	}
+	header nav a:hover{
+		background-color: white;
+		color: #073277;
+	}
+	.content{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.pozadina{
+		position: relative;
+		width: 100%;
+		background-image: url(../aseti/images/hero.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 700px;
+		text-align: center;
+		color: white;
+	}
+	.pozadina p{
+		margin: 0 12%;
+		margin-bottom: 20px;
+		color: white !important;
+		text-align: center;
+	}
+	.pozadina h1{
+		margin: 0;
+		padding: 140px 40px 40px 40px;
+	}
+	a.dugme{
+		display: block;
+		text-decoration: none;
+		border: 2px solid white;
+		border-radius: 20px;
+		width: 120px;
+		line-height: 3;
+		color: white;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+	a.dugme:hover{
+		background-color: white;
+		color: #073277;
+		font-weight: bolder;
+	}
+	main{
+		width:80%;
+		margin:0 auto;
+	}
+	.content main .prvi{
+		margin-top: 90px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.content main .prvi p{
+		font-size: 13px;
+		color: black;
+		text-align: center;
+	}
+
+	.content main article{
+		width: 100%;
+		background-color: #eae6e6;
+		margin-bottom: 30px;
+	}
+	.content .tranzicija{
+		width: 90%;
+		margin: 0 auto;
+	}
+	article img{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.content main article h2{
+		color:#073277;
+		text-align: center;
+	}
+	.content main  article p{
+		text-align: center;
+		color: #073277;
+	}
+	.content .new_idea{
+		background-color: #073277;
+		padding: 3% 9%;
+		height: 100%;
+		margin-top: 40px;
+	}
+	.new_idea div.animacija{
+		width: 60px;
+		height: 50%;
+		margin:7% 7% 3% 2%;
+		float: left;
+		background-color:#073277;
+	}
+	.animacija img{
+		display:block;
+		width: 100%;
+		animation: blink 0.5s infinite;
+	}
+	@keyframes blink{
+		50%{
+			opacity: 0;
+		}
+	}
+	.new_idea p,h3{
+		text-align: left !important;
+		color: white;
+	}
+	.new_idea p{
+		font-size: 13px;
+	}
+	.about_cssani{
+		width: 80%;
+		background-image: url(../aseti/images/about.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 10%;
+	}
+	.about_cssani h2,p{
+		text-align: left;
+		color: black;
+	}
+	.about_cssani h2{
+		margin-top: 60px;
+	}
+	a.neko_dugme{
+		display: block;
+		text-decoration: none;
+		border: 2px solid #073277;
+		border-radius: 20px;
+		width: 120px;
+		line-height: 3;
+		color: #073277;
+		text-align: center;
+		margin: 0;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+	a.neko_dugme:hover{
+		background-color: #073277;
+		color: white;
+		font-weight: bolder;
+	}
+	.video{
+		width: 100%;
+		position: relative;
+	}
+	video{
+		display: block;
+		width: 100%;
+	}
+	footer{
+		position: relative;
+		background-color: #073277;
+		height: 60px;
+		text-align: center;
+		color: white;
+		line-height: 6;
+		font-size: 11px;
+	}
+	footer a{
+		display: block;
+		position: absolute;
+		text-decoration: none;
+		right: 2%;
+		bottom: -20px;
+		color: white;
+	}
+	.skriven{
+		visibility: hidden;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		top: 13%;
+		left: 1%;
+		padding-top:0px;
+	}
+	.video:hover .skriven{
+		visibility: visible;
+	}
+	.skriven img{
+		display: block;
+		width: 100px;
+		height: 25px;
+		margin: 0 auto;
+	}
+	.skriven p,h3{
+		text-align: center;
+		color: white;
+	}
+	.skriven p{
+		font-size: 10px;
+		padding: 2%;
+	}
+	.skriven h3{
+		font-size: 14px;
+		text-align: center !important;
+
+	}
+
+}
